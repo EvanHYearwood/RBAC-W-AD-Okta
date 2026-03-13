@@ -129,6 +129,8 @@ Add-ADGroupMember -Identity "V2_Finance" -Members "user1","user2","user3","user4
 ```
 
 > 📸 *[Screenshot: ADUC showing users in Groups OU]*
+> <img width="844" height="556" alt="image" src="https://github.com/user-attachments/assets/989ed1b2-5b19-4819-824e-1120a4bd7af4" />
+
 
 ---
 
@@ -164,6 +166,8 @@ Added three SAML app integrations from the Okta Integration Network:
 Configured each with the appropriate SAML settings for yearwood.local.
 
 > 📸 *[Screenshot: Okta Applications list showing 3 SAML apps]*
+> <img width="1255" height="786" alt="image" src="https://github.com/user-attachments/assets/7d7d04c2-d60e-400e-ad22-e19cd0ef9dc4" />
+
 
 ---
 
@@ -297,6 +301,8 @@ foreach ($old in $groupMap.Keys) {
 ```
 
 > 📸 *[Screenshot: Okta Groups page showing V2 groups with correct People counts and AD icon]*
+> <img width="1241" height="802" alt="image" src="https://github.com/user-attachments/assets/31cf8710-8c71-428a-9c99-b7be84f014fa" />
+
 
 ---
 
@@ -307,7 +313,6 @@ foreach ($old in $groupMap.Keys) {
 3. Verified each V2 group's **Directories tab** showed `yearwood.local`
 4. Ran API audit to confirm AD linkage, correct members, no ghost assignments
 
-> 📸 *[Screenshot: Audit output showing V2 groups with DN and externalId populated]*
 
 ---
 
@@ -363,8 +368,14 @@ Navigated to **Reports > Access Testing Tool** and tested a Cloud Engineer user 
 | Slack      | ✅ Allowed | V2_Cloud_Engineer |
 
 > 📸 *[Screenshot: Access Testing Tool showing green Allowed for Gworkspace]*
+> <img width="1845" height="836" alt="Screenshot 2026-03-12 at 7 15 57 PM" src="https://github.com/user-attachments/assets/68c0f5f7-6b4f-46e5-b3a0-a961e3291881" />
+
 > 📸 *[Screenshot: Access Testing Tool showing green Allowed for SharePoint]*
+> <img width="1389" height="852" alt="Screenshot 2026-03-12 at 7 16 36 PM" src="https://github.com/user-attachments/assets/db5dafd5-4394-46c8-ac9d-68b9bf744546" />
+
 > 📸 *[Screenshot: Access Testing Tool showing green Allowed for Slack]*
+> <img width="1370" height="842" alt="Screenshot 2026-03-12 at 7 16 25 PM" src="https://github.com/user-attachments/assets/95b1c205-c223-4682-8a0b-8519e95e00ca" />
+
 
 Access granted via **group membership** — not direct assignment. RBAC confirmed working.
 
