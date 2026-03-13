@@ -3,6 +3,9 @@
 
 A hands-on identity and access management lab implementing Role-Based Access Control (RBAC) by integrating an on-premises Active Directory domain with Okta as the identity provider. Built, broken, debugged, and completed across three sessions.
 
+<h2>Video Demonstration</h2>
+
+- ### [Implementing RBAC with Active Directory and Okta: A Lab Debrief 🚀](https://youtu.be/V3FpYYJUDQU)
 ---
 
 ## Table of Contents
