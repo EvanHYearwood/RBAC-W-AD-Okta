@@ -99,6 +99,8 @@ yearwood.local
 ```
 
 > 📸 *[Screenshot: ADUC showing OU structure]*
+> <img width="760" height="535" alt="image" src="https://github.com/user-attachments/assets/b2399fea-0023-4251-be36-18a0c6183b4f" />
+
 
 ---
 
@@ -113,7 +115,7 @@ New-ADGroup -Name "V2_HR"             -GroupScope Global -GroupCategory Security
 New-ADGroup -Name "V2_Cloud_Engineer" -GroupScope Global -GroupCategory Security -Path "OU=Groups,OU=_NA,DC=yearwood,DC=local"
 ```
 
-> ⚠️ **Lesson Learned:** Do NOT create application groups (GG_Slack, GG_VPN, etc.) in AD. Application entitlement groups belong in Okta only. Creating them in AD and nesting them inside role groups caused three sessions of access sprawl.
+> ⚠️ **Lesson Learned:** Do NOT create application groups (GG_Slack, GG_VPN, etc.) in AD. Application entitlement groups should belong in Okta. Creating them in AD and nesting them inside role groups caused three sessions of access sprawl.
 
 ---
 
