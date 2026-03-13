@@ -33,6 +33,9 @@ The goal of this lab was to implement a clean RBAC model where:
 
 The lab encountered real-world access sprawl issues caused by misconfiguration and resolved them through API-based remediation and architectural rebuilding.
 
+<img width="687" height="754" alt="RBAC Lab | March 2026" src="https://github.com/user-attachments/assets/2f743507-8c4a-456b-9e8b-760d2e3c1b6d" />
+
+
 ---
 
 ## Environment
