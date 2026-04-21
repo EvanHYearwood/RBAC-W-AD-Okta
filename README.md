@@ -1,7 +1,8 @@
 # AD + Okta RBAC Lab
 **Yearwood.Local | Active Directory + Okta Identity Management**
 
-A hands-on identity and access management lab implementing Role-Based Access Control (RBAC) by integrating an on-premises Active Directory domain with Okta as the identity provider. Built, broken, debugged, and completed across three sessions.
+Hi,
+In this hands-on IAM lab I implement Role-Based Access Controls (RBAC) by integrating an on-premises Active Directory domain with Okta as the identity provider.
 
 <h2>Video Demonstration</h2>
 
